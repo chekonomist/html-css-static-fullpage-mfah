@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Helvetica Nue";
+}
+
+.top-banner{
+  display: flex;
+  flex-wrap: wrap;
+}
+  .logo{
+    width: 50%;
+  }
