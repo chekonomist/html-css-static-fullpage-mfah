@@ -4,12 +4,72 @@
 
 body{
   font-family: "Helvetica Nue";
+  outline: 2px solid red;
+  margin: 0 auto;
+  max-width: 1024px;
 }
 
 .top-banner{
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
+  background-color: #2f3640;
 }
   .logo{
-    width: 50%;
+
+  }
+  .img-acronym{
+    position: relative;
+  }
+  .img-long-name{
+    position: absolute;
+    top: 4%;
+    left: 50%;
+  }
+
+.menu{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #2f3640;
+  color: white;
+}
+  .menu-options{
+    padding-right: 10px;
+  }
+
+.middle-menu{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+  .middle-menu-options{
+    padding-right: 10px;
+    background-color: #feca57;
+    margin-right: 5px;
+  }
+
+  .middle-menu-selection{
+    background-color: #48dbfb;
+  }
+
+  .content-container{
+    width: 70%;
+  }
+
+.third-article-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+    .third-article-content{
+      width: 50%;
+      padding: 10px;
+    }
+
+  .newsletter-box{
+    background-color: #0984e3;
+    width: 250px;
+    position: fixed;
+    top: 90%;
+    left: 70%;
   }
